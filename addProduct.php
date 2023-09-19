@@ -71,7 +71,6 @@ if(isset($_POST["submit"])){
     if (move_uploaded_file($tempname,$folder)) {
       $filePaths[] = $folder;
     }
-    // $filePathsStr = implode(',', $filePaths);
   }
   //use the move_uploaded_file() to move your file on your server directory.
   if (!empty($filePaths)) {

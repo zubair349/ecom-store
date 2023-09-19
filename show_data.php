@@ -26,8 +26,6 @@
                 echo "<td>" . $row["id"] . "</td>";
                 echo "<td>" . $row["name"] . "</td>";
                 echo "<td>" . $row["price"] . "</td>";
-                // echo "<td><img src='".$row["img"] . "' alt='Product Image' width='100'></td>";
-                // To fetch multiple images
                 $temp = array();
                 $temp   = explode(',', $row['img']);
                 foreach($temp as $image){
